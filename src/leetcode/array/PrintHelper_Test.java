@@ -1,6 +1,7 @@
 package leetcode.array;
 
-import java.util.*; 
+import java.util.*;
+
 
 import org.junit.Test;
 
@@ -13,15 +14,20 @@ public class PrintHelper_Test {
 		List<String> list = new ArrayList<String>();
 		HashSet<String> set = new HashSet<String>();
 		
+		String[] s = "a,b,".split(",");
 		
-		set.add("a");
-		set.add("b");
+		int[] aa = new int[]{1231,212,1,2};
 		
-		for(String s : set)
-			System.out.println(s);
+		 
+		Integer[] a = new Integer[]{5,4,3,2,1};
 		
-		list.addAll(set);
+		List<Integer> lst = Arrays.asList(a);
+		PriorityQueue<Integer> queue  = new PriorityQueue<>(lst);
+		System.out.println(queue.poll());
 		
+	
+	 	
+	 
 	
 		
 		System.out.print("size():" + list.size());
