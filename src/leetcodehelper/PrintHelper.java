@@ -6,5 +6,6 @@ public class PrintHelper {
 		for(String sz : list)
 			System.out.print(sz + " ");
 		System.out.println("");
+		 
 	}
 }

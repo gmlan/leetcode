@@ -1,6 +1,7 @@
 package leetcode.model;
 
-public  class TrieNode {
+
+public class TrieNode {
     public boolean isWord;
     public char ch;
     public TrieNode[] childNodes = new TrieNode[26];
@@ -8,7 +9,5 @@ public  class TrieNode {
     public TrieNode(char ch){
         this.isWord = false;
         this.ch = ch;         
-    }
-    
-    
+    }        
 }
