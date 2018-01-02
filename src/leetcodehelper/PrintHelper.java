@@ -8,4 +8,11 @@ public class PrintHelper {
 		System.out.println("");
 		 
 	}
+	
+	public static void PrintInt(List<Integer> list){
+		for(Integer sz : list)
+			System.out.print(sz + " ");
+		System.out.println("");
+		 
+	}
 }
