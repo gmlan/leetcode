@@ -1,4 +1,4 @@
-package leetcodehelper;
+package leetcode.helper;
  
 
 import leetcode.model.TreeNode;

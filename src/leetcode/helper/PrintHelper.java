@@ -1,4 +1,5 @@
-package leetcodehelper;
+package leetcode.helper;
+
 import java.util.*;
 
 public class PrintHelper {

@@ -1,4 +1,4 @@
-package leetcodehelper;
+package leetcode.helper;
 
 public class Test {
 

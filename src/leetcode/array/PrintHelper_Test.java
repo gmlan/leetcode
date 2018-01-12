@@ -5,7 +5,7 @@ import java.util.*;
 
 import org.junit.Test;
 
-import leetcodehelper.PrintHelper;
+import leetcode.helper.PrintHelper;
 
 public class PrintHelper_Test {
 

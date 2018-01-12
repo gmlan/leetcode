@@ -1,15 +1,20 @@
 package leetcode.test;
 
 import java.util.ArrayList;
+import java.util.Deque;
 import java.util.HashSet;
 import java.util.Iterator;
 import java.util.LinkedHashSet;
+import java.util.LinkedList;
 import java.util.List;
 import java.util.Map;
+import java.util.Queue;
+import java.util.Stack;
 
 import org.junit.Test;
 
-import leetcodehelper.PrintHelper;
+import leetcode.helper.PrintHelper;
+import leetcode.model.TreeNode;
 
 public class test {
 //	@Test
@@ -50,5 +55,22 @@ public class test {
 		
 		PrintHelper.PrintInt(list);
 		 
+	}
+	 
+	 
+	@Test
+	public void queue(){
+		Queue<Integer> queue = new LinkedList<>();
+
+
+		Deque<Integer> deque  = new LinkedList<>();
+		deque.offerFirst(1);
+	 
+	}
+	
+	@Test
+	public void stack(){
+		Stack<Integer> stack = new Stack<>();
+	//	stack.push(item)
 	}
 }
