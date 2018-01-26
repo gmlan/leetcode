@@ -1,11 +1,13 @@
 package leetcode.queue;
 
+import java.nio.ByteOrder;
 import java.util.Iterator;
 import java.util.PriorityQueue;
 
 import org.junit.Test;
 
 public class PriorityQueue_TestCase {
+	
 
 	@Test
 	public void Kth_Largest_Element_In_An_Array(){
@@ -38,5 +40,10 @@ public class PriorityQueue_TestCase {
         Iterator itr = pQueue.iterator();
         while (itr.hasNext())
             System.out.println(itr.next());
+	}
+	
+	@Test
+	public void test(){
+		PriorityQueue<Integer> priorityQueue = new PriorityQueue<>((a,b)->(a-b));
 	}
 }

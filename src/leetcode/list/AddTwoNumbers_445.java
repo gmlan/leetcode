@@ -1,5 +1,9 @@
 package leetcode.list;
 
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Map;
+
 import org.junit.Test;
 
 import leetcode.model.ListNode;
@@ -19,7 +23,15 @@ public class AddTwoNumbers_445 {
 		ListNode res = addTwoNumbers(l1, l2);
 	}
 	
-	
+	@Test
+	public void listToArray(){
+		List<Integer> list= new ArrayList<>();
+		list.add(1);
+		list.add(2);
+		list.add(3);
+		
+		System.out.println(list.stream().mapToInt(i->i).toArray());
+	}
 	
 	  public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
 	        if (l1 == null) 

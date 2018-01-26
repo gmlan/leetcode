@@ -1,8 +1,14 @@
 package leetcode.mapset;
 
+import java.awt.List;
+import java.util.Arrays;
+import java.util.Collection;
+import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import java.util.TreeMap;
+
+import javax.swing.event.ListSelectionEvent;
 
 import org.junit.Test;
 
@@ -37,8 +43,40 @@ public class HashMap_Test {
 		}
 		for(Map.Entry<Person, Integer> entry : map.entrySet())
 			System.out.println(entry.getKey() + " : " + entry.getValue());
+		
+		  int[][] m = new int[2][2];
+
 	}
 	
+	public int maxProduct(int[] nums) {
+        if (nums == null || nums.length == 0)
+            return 0;
+        int max = Integer.MIN_VALUE;
+        int[][] m = new int[nums.length][nums.length];
+        for(int i = 0; i < nums.length; i++){         
+            m[i][i] = nums[i];
+            max = Math.max(nums[i],max);
+        }
+        
+        
+         
+        for (int j = 0; j < nums.length; j++)
+            for (int i = 0; i < j; i++){
+                m[i][j] = m[i][j - 1] * nums[j];
+                max = Math.max(max, m[i][j]);
+            }
+            
+        
+        return max;
+            
+    }
+	
+	@Test
+	public void maxProduct_Test(){
+	 	
+		
+		
+	}
 	
 	@Test
 	public void TreeMap_test()
