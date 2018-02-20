@@ -30,6 +30,13 @@ public class test {
 //		}
 //	}
 //	
+	
+	@Test
+	public void array_Test(){
+		
+	}
+	
+	
 	@Test
 	public void test_set() {
 		HashSet<Integer> set = new HashSet<>();

@@ -12,13 +12,7 @@ public class PrintHelper_Test {
 	@Test
 	public void test() {
 		List<String> list = new ArrayList<String>();
-		HashSet<String> set = new HashSet<String>();
 		
-		String[] s = "a,b,".split(",");
-		
-		int[] aa = new int[]{1231,212,1,2};
-		
-		 
 		Integer[] a = new Integer[]{5,4,3,2,1};
 		
 		List<Integer> lst = Arrays.asList(a);

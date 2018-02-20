@@ -14,12 +14,12 @@ public class GenerateParentheses_22 {
 	   PrintHelper.Print(generateParenthesis(3));	
 	   System.out.println(Integer.MAX_VALUE);
 	   ClassA a = new ClassA();
-	   a.StaticPrint();
+	   ClassA.StaticPrint();
 	   a.InstancePrint();
 	   ClassA.StaticPrint();
 	   
-	   ClassB b = new ClassB();
-	   b.run();
+	 
+	   ClassB.run();
 	}
 	public List<String> generateParenthesis(int n) {
 	    List<String> list = new ArrayList<String>();

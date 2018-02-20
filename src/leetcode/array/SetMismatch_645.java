@@ -1,13 +1,10 @@
 package leetcode.array;
 import org.junit.*;
-import java.util.*;
-
 public class SetMismatch_645 {
 
 	@Test
 	public void test(){
-		 HashMap<Integer, Integer> map = new HashMap<>();
-		 
+	
 	}
 	
 	
