@@ -1,0 +1,10 @@
+total 32
+drwxr-xr-x   9 guanglan  1896053708  306 May 15 20:40 .
+drwxr-xr-x   7 guanglan  1896053708  238 May  7 10:12 ..
+-rw-r--r--   1 guanglan  1896053708  372 Apr 24 15:57 .classpath
+drwxr-xr-x  12 guanglan  1896053708  408 Apr 24 15:57 .git
+-rw-r--r--   1 guanglan  1896053708    5 Apr 24 15:57 .gitignore
+-rw-r--r--   1 guanglan  1896053708  367 Apr 24 15:57 .project
+-rw-r--r--   1 guanglan  1896053708   10 Apr 24 15:57 README.md
+-rw-r--r--   1 guanglan  1896053708    0 May 15 20:41 dir
+drwxr-xr-x   3 guanglan  1896053708  102 Apr 24 15:57 src
